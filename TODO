@@ -1,0 +1,10 @@
+Must implement unit test runner to check tests results
+This will be done after reading Linux system programming cause we are going to have mutli tasking and multi threading even?
+And we need to ensure signals and stuff is tested.
+
+Finish Stack implementation
+
+ALso implement extra from exercises
+
+Allow pre-allocation of stack and other nice features? it is a convenince anyway
+

@@ -1,0 +1,18 @@
+sugo - a unit test framework for system routines and applications
+=================================================================
+
+Run a series of tests and checks their results.
+Can run tests in series or in parallel to improve performance.
+
+
+Pseudocode
+----------
+
+test names are given on the command line for now.
+Each argument is the name of one test.
+Each test is an executable.
+The result of running the test is either 0, non zero, or an abort.
+If 0 is success
+If non-0 is failure
+If abort, is fatal error!
+Print output in Asciidoc for now so it can be rendered in HTML

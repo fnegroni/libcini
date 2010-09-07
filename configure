@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get directory where we are from?
+
+pdir=`dirname $0`
+
+cat <<<"PDIR=$pdir" - $pdir/Makefile-template > Makefile
