@@ -1,0 +1,11 @@
+cini - a system application support library written in C99 for Linux
+====================================================================
+
+cini is collection of routines written to support the development of systems applications for Linux.
+
+It is written in C99.
+
+
+Project layout
+--------------
+The layout of the project is explained in more details in link:PROJECT.html[PROJECT]
