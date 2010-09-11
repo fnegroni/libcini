@@ -7,9 +7,12 @@ TEST_LDFLAGS:=$(LDFLAGS) -Ldist/lib
 
 STACK_TESTS := test/test-Stack-1 test/test-Stack-2
 
-.PHONY: default clean tests distro libcini
+.PHONY: default clean tests distro libcini configure
 
 default: tests
+
+configure:
+	$(PDIR)/configure
 
 clean: tests-clean distro-clean libcini-clean
 
